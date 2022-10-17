@@ -27,7 +27,8 @@ const resultSubtract = subtract(parseInt(number1), parseInt(number2));
 const resultMultiply = multiply(parseInt(number1), parseInt(number2));
 const resultDivide = divide(parseInt(number1), parseInt(number2));
 
-window.alert("The addition of your numbers equals: " + resultAdd + 
-" The subtraction of your numbers equals: " + resultSubtract +
-" The multiplication of your numbers equals: " + resultMultiply +
-" The division of your numbers equals: " + resultDivide);
+window.alert(
+number1 + " + " + number2 + " = " + resultAdd + "\n" +
+number1 + " - " + number2 + " = " + resultSubtract + "\n" +
+number1 + " * " + number2 + " = " + resultMultiply +  "\n" +
+number1 + " / " + number2 + " = " + resultDivide);
